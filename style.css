@@ -94,7 +94,7 @@ main {
 .main-nav .navigation li a {
     display: block;
     padding: 10px 8px;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #76a7e6;
     transition: color 0.2s linear, border-bottom-color 0.2s;
 }
 .main-nav .navigation li:last-child a {
@@ -147,6 +147,9 @@ footer {
         text-transform: uppercase;
     }
     .main-nav .navigation li a:hover {
+    }
+    .main-nav .navigation li:last-child a {
+        margin-bottom: 0;
     }
 }
 
