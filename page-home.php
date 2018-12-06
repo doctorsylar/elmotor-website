@@ -5,8 +5,63 @@ Template Name: home
 ?>
 <?php get_header(); ?>
 <main>
-    <div class="container">
-        Главная страница
-    </div>
+    <section class="production wrapper">
+        <h2 class="section-header">Наша продукция</h2>
+        <div class="container">
+            <div class="row">
+                <div class="production-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <a href="#" class="item-inner">
+                        <div class="picture">
+                            <img src="<?= DS_ROOT . '/img/homepage/electrodvig.jpg' ?>" alt="электродвигатель">
+                        </div>
+                        <div class="text">
+                            электродвигатели
+                        </div>
+                    </a>
+                </div>
+                <div class="production-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <a href="#" class="item-inner">
+                        <div class="picture">
+                            <img src="<?= DS_ROOT . '/img/homepage/electrodvig.jpg' ?>" alt="ремонт электродвигателей">
+                        </div>
+                        <div class="text">
+                            ремонт электродвигателей
+                        </div>
+                    </a>
+                </div>
+                <div class="production-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <a href="#" class="item-inner">
+                        <div class="picture">
+                            <img src="<?= DS_ROOT . '/img/homepage/reduktory.jpg' ?>" alt="редукторы">
+                        </div>
+                        <div class="text">
+                            редукторы
+                        </div>
+                    </a>
+                </div>
+                <div class="production-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <a href="#" class="item-inner">
+                        <div class="picture">
+                            <img src="<?= DS_ROOT . '/img/homepage/motor-red.jpg' ?>" alt="мотор-редукторы">
+                        </div>
+                        <div class="text">
+                            мотор-редукторы
+                        </div>
+                    </a>
+                </div>
+                <div class="production-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <a href="#" class="item-inner">
+                        <div class="picture">
+                            <img src="<?= DS_ROOT . '/img/homepage/nasosi.jpg' ?>" alt="насосы">
+                        </div>
+                        <div class="text">
+                            насосы
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
+    <link rel="stylesheet" href="<?=DS_ROOT . '/css/home-style.css'?>">
 <?php get_footer(); ?>

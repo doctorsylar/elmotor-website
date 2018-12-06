@@ -13,7 +13,6 @@
     </style>
     <?php wp_head(); ?>
 
-
     <header class="main-header container-fluid">
         <div class="row">
             <div class="header-main col-12 col-lg-6">
@@ -49,10 +48,30 @@
                     </a></li>
                 <li class="nav-item"><a href="<?= get_site_url() . '/catalog' ?>">
                         Каталог продукции
-                    </a></li>
+                    </a>
+                    <ul class="nav-submenu">
+                        <li class="nav-item"><a href="#">Электродвигатели</a></li>
+                        <li class="nav-item"><a href="#">Электродвигатели DIN</a></li>
+                        <li class="nav-item"><a href="#">Редукторы</a></li>
+                        <li class="nav-item"><a href="#">Мотор-редукторы</a></li>
+                        <li class="nav-item"><a href="#">Вентиляторы</a></li>
+                        <li class="nav-item"><a href="#">Насосы</a></li>
+                        <li class="nav-item"><a href="#">Подшипники</a></li>
+                    </ul>
+                </li>
                 <li class="nav-item"><a href="<?= get_site_url() . '/repair' ?>">
                         Ремонт
-                    </a></li>
+                    </a>
+                    <ul class="nav-submenu">
+                        <li class="nav-item"><a href="#">Общепромышленные электродвигатели</a></li>
+                        <li class="nav-item"><a href="#">Крановые электродвигатели</a></li>
+                        <li class="nav-item"><a href="#">Взрывозащищенные электродвигатели</a></li>
+                        <li class="nav-item"><a href="#">Электродвигатели постоянного тока</a></li>
+                        <li class="nav-item"><a href="#">Высоковольтные электродвигатели</a></li>
+                        <li class="nav-item"><a href="#">Трансформаторы</a></li>
+                        <li class="nav-item"><a href="#">Генераторы</a></li>
+                    </ul>
+                </li>
                 <li class="nav-item"><a href="<?= get_site_url() . '/search' ?>">
                         Подбор электродвигателей
                     </a></li>

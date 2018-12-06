@@ -24,7 +24,7 @@ main {
 
 /* MAIN HEADER */
 .main-header {
-    background-color: #0000cb;
+    background-color: #76a7e6;
     background:
             linear-gradient(#0000cb, #76a7e6);
 }
@@ -90,19 +90,26 @@ main {
     text-align: center;
     display: none;
     flex-direction: column;
+    z-index: 2;
 }
-.main-nav .navigation li a {
+.main-nav .navigation .nav-item {
+    position: relative;
+}
+.main-nav .navigation .nav-item a {
     display: block;
     padding: 10px 8px;
-    border-bottom: 1px solid #76a7e6;
+    border-bottom: 2px solid #76a7e6;
     transition: color 0.2s linear, border-bottom-color 0.2s;
 }
-.main-nav .navigation li:last-child a {
+.main-nav .navigation .nav-item .nav-submenu {
+    display: none;
+}
+.main-nav .navigation .nav-item:last-child a {
     margin-bottom: 10px;
 }
-.main-nav .navigation li a:hover {
+.main-nav .navigation .nav-item:hover > a {
     color: #3c57c8;
-    border-bottom: 1px solid #3c57c8;
+    border-bottom: 2px solid #3c57c8;
 }
 
 
@@ -132,7 +139,7 @@ footer {
         background:
                 url("./img/krani.png") center left no-repeat,
                 url("./img/krani2.png") center right no-repeat,
-                linear-gradient(blue, #76a7e6);
+                linear-gradient(#0000cb, #76a7e6);
         background-size: contain;
     }
     .main-nav .mobile-navs {
@@ -143,13 +150,31 @@ footer {
         flex-direction: row;
         justify-content: space-between;
     }
-    .main-nav .navigation li a {
+    .main-nav .navigation .nav-item a {
         text-transform: uppercase;
     }
-    .main-nav .navigation li a:hover {
+    .main-nav .navigation .nav-item a:hover {
     }
-    .main-nav .navigation li:last-child a {
+    .main-nav .navigation .nav-item:last-child a {
         margin-bottom: 0;
+    }
+    .main-nav .navigation .nav-item .nav-submenu {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        display: none;
+        background-color: #76a7e6;
+        list-style: none;
+        z-index: 2;
+    }
+    .main-nav .navigation .nav-item:hover .nav-submenu {
+        display: block;
+    }
+    .main-nav .navigation .nav-item .nav-submenu a {
+        border-bottom: 1px solid #ffffff;
+    }
+    .main-nav .navigation .nav-item .nav-submenu a:hover {
+        background-color: #8fc0ff;
     }
 }
 

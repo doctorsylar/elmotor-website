@@ -1,0 +1,95 @@
+.wrapper {
+    padding: 20px 0;
+}
+.wrapper .section-header {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 20px;
+    cursor: default;
+}
+.wrapper .section-header::after {
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+    height: 2px;
+    background-color: #222222;
+    content: '';
+}
+main {
+    background-color: #eeeeee;
+}
+main .production .row {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main .production .production-item {
+    padding: 10px;
+}
+main .production .production-item .item-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #222222;
+    background-color: #ffffff;
+    padding: 10px 5px;
+    height: 100%;
+
+}
+main .production .production-item .item-inner .picture img {
+    width: 100%;
+    transform: scale(0.9);
+    transition: transform 0.2s linear;
+}
+main .production .production-item .item-inner:hover .picture img {
+    transform: scale(1);
+}
+main .production .production-item .item-inner .text {
+    text-align: center;
+    text-transform: uppercase;
+}
+main .production .production-item .item-inner:hover .text {
+    color: #0000cb;
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .wrapper {
+        padding: 30px 0;
+    }
+    .wrapper .section-header {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    main .production .row {
+        flex-direction: row;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .wrapper {
+        padding: 40px 0;
+    }
+    .wrapper .section-header {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .wrapper {
+        padding: 50px 0;
+    }
+    .wrapper .section-header {
+        font-size: 28px;
+        margin-bottom: 50px;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
