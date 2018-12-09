@@ -6,7 +6,7 @@ Template Name: home
 <?php get_header(); ?>
 <main>
     <section class="production wrapper">
-        <h2 class="section-header">Наша продукция</h2>
+        <h2 class="section-header">Наша продукция и услуги</h2>
         <div class="container">
             <div class="row">
                 <div class="production-item col-12 col-sm-6 col-md-4 col-lg-3">
@@ -22,7 +22,7 @@ Template Name: home
                 <div class="production-item col-12 col-sm-6 col-md-4 col-lg-3">
                     <a href="#" class="item-inner">
                         <div class="picture">
-                            <img src="<?= DS_ROOT . '/img/homepage/electrodvig.jpg' ?>" alt="ремонт электродвигателей">
+                            <img src="<?= DS_ROOT . '/img/homepage/eldvigrem.png' ?>" alt="ремонт электродвигателей">
                         </div>
                         <div class="text">
                             ремонт электродвигателей
@@ -52,10 +52,45 @@ Template Name: home
                 <div class="production-item col-12 col-sm-6 col-md-4 col-lg-3">
                     <a href="#" class="item-inner">
                         <div class="picture">
+                            <img src="<?= DS_ROOT . '/img/homepage/vent.png' ?>"
+                                 alt="вентиляторы"
+                                 style="margin-top: 20px;"
+                            >
+                        </div>
+                        <div class="text">
+                            вентиляторы
+                        </div>
+                    </a>
+                </div>
+                <div class="production-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <a href="#" class="item-inner">
+                        <div class="picture">
                             <img src="<?= DS_ROOT . '/img/homepage/nasosi.jpg' ?>" alt="насосы">
                         </div>
                         <div class="text">
                             насосы
+                        </div>
+                    </a>
+                </div>
+                <div class="production-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <a href="#" class="item-inner">
+                        <div class="picture">
+                            <img src="<?= DS_ROOT . '/img/homepage/podship.png' ?>"
+                                 alt="подшипники"
+                                 style="width: 80%;">
+                        </div>
+                        <div class="text">
+                            подшипники
+                        </div>
+                    </a>
+                </div>
+                <div class="production-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <a href="#" class="item-inner">
+                        <div class="picture">
+                            <img src="<?= DS_ROOT . '/img/homepage/tokar.jpg' ?>" alt="токарные работы">
+                        </div>
+                        <div class="text">
+                            токарные работы
                         </div>
                     </a>
                 </div>

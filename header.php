@@ -51,12 +51,13 @@
                     </a>
                     <ul class="nav-submenu">
                         <li class="nav-item"><a href="#">Электродвигатели</a></li>
-                        <li class="nav-item"><a href="#">Электродвигатели DIN</a></li>
+                        <li class="nav-item"><a href="#">Электродвигатели стандарта DIN</a></li>
                         <li class="nav-item"><a href="#">Редукторы</a></li>
                         <li class="nav-item"><a href="#">Мотор-редукторы</a></li>
                         <li class="nav-item"><a href="#">Вентиляторы</a></li>
                         <li class="nav-item"><a href="#">Насосы</a></li>
                         <li class="nav-item"><a href="#">Подшипники</a></li>
+                        <li class="nav-item"><a href="#">Распродажа</a></li>
                     </ul>
                 </li>
                 <li class="nav-item"><a href="<?= get_site_url() . '/repair' ?>">

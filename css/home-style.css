@@ -31,6 +31,7 @@ main .production .production-item .item-inner {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow: hidden;
     color: #222222;
     background-color: #ffffff;
     padding: 10px 5px;
