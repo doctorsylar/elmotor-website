@@ -8,7 +8,7 @@ Template Name: home
     <section class="production wrapper">
         <h2 class="section-header">Наша продукция и услуги</h2>
         <div class="container">
-            <div class="row">
+            <div class="row production-items">
                 <div class="production-item col-12 col-sm-6 col-md-4 col-lg-3">
                     <a href="#" class="item-inner">
                         <div class="picture">
@@ -77,7 +77,7 @@ Template Name: home
                         <div class="picture">
                             <img src="<?= DS_ROOT . '/img/homepage/podship.png' ?>"
                                  alt="подшипники"
-                                 style="width: 80%;">
+                                 style="width: 80%; margin-left: 25px;">
                         </div>
                         <div class="text">
                             подшипники
@@ -95,6 +95,12 @@ Template Name: home
                     </a>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="advantages wrapper">
+        <h2 class="section-header">Преимущества работы с нами</h2>
+        <div class="container-fluid">
+
         </div>
     </section>
 </main>

@@ -8,10 +8,11 @@ body {
     padding: 0;
     color: #222222;
     box-sizing: border-box;
-    font-family: sans-serif;
+    /*font-family: sans-serif;*/
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: 'Roboto Slab', sans-serif;
 }
 a {
     text-decoration: none;
@@ -24,9 +25,8 @@ main {
 
 /* MAIN HEADER */
 .main-header {
-    background-color: #76a7e6;
-    background:
-            linear-gradient(#0000cb, #76a7e6);
+    /*background-color: ;*/
+    background: #76a7e6 linear-gradient(#0000cb, #76a7e6);
 }
 .main-header .header-main {
     margin: 0 auto;
@@ -54,11 +54,11 @@ main {
 .main-header .header-main .header-contacts ul a {
     color: #ffffff;
     text-decoration: none;
-    opacity: 0.4;
+    opacity: 1;
     transition: opacity 0.3s linear;
 }
 .main-header .header-main .header-contacts ul a:hover {
-    opacity: 1;
+    opacity: 0.4;
 }
 /* NAVIGATION */
 .main-nav {
@@ -116,10 +116,11 @@ main {
 /* FOOTER */
 footer {
     min-height: 200px;
-    background-color: #0000cb;
-    background:
-            linear-gradient(#76a7e6, #0000cb);
+    background: #0000cb linear-gradient(#76a7e6, #0000cb);
 }
+
+
+
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
@@ -137,7 +138,7 @@ footer {
 @media (min-width: 992px) {
     .main-header {
         background:
-                url("./img/krani.png") center left no-repeat,
+                url("./img/left_bg_t.png") center left no-repeat,
                 url("./img/krani2.png") center right no-repeat,
                 linear-gradient(#0000cb, #76a7e6);
         background-size: contain;
@@ -160,7 +161,7 @@ footer {
     }
     .main-nav .navigation .nav-item .nav-submenu {
         position: absolute;
-        top: 40px;
+        top: 43px;
         left: 0;
         display: none;
         background-color: #76a7e6;

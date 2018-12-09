@@ -17,9 +17,9 @@
     content: '';
 }
 main {
-    background-color: #84b9ff;
+    background-color: #cad9dd;
 }
-main .production .row {
+main .production .production-items {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
@@ -52,6 +52,10 @@ main .production .production-item .item-inner .text {
 }
 main .production .production-item .item-inner:hover .text {
     color: #0000cb;
+}
+/* ADVANTAGES */
+main .advantages {
+    background-color: #bfe3ff;
 }
 
 /*Small devices (landscape phones, 576px and up)*/

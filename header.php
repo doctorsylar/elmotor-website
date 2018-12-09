@@ -11,6 +11,7 @@
             color: #ffffff;
         }
     </style>
+    <link rel="stylesheet" href="<?=DS_ROOT . '/style.css'?>">
     <?php wp_head(); ?>
 
     <header class="main-header container-fluid">
@@ -18,8 +19,10 @@
             <div class="header-main col-12 col-lg-6">
                 <div class="company-name">
                     <h1>
-                        <img src="<?=DS_ROOT . '/img/transparent-sign.png'?>" alt="electromotor">
-                        <span class="company-name-span">Электромотор</span>
+                        <a href="<?=get_site_url() ?>">
+                            <img src="<?=DS_ROOT . '/img/transparent-sign.png'?>" alt="electromotor">
+                            <span class="company-name-span">Электромотор</span>
+                        </a>
                     </h1>
                 </div>
                 <div class="header-contacts">
