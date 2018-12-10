@@ -2,7 +2,7 @@
     <div class="inner-footer container">
         <div class="row work-hours">
             <h3>Время работы</h3>
-            <div class="hours">Понедельник-Четверг: 08.30 - 17.00</div>
+            <div class="hours">Понедельник-четверг: 08.30 - 17.00</div>
             <div class="hours">Пятница: 08.30 - 16.00</div>
             <div>г.Санкт-Петербург, ул.Салова, д.57</div>
         </div>

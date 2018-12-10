@@ -11,7 +11,7 @@ Template Name: contacts
                 <div class="contacts-container row">
                     <div class="contacts-inner col-12 col-md-6">
                         <h3>Время работы</h3>
-                        <div class="hours">Понедельник-Четверг: 08.30 - 17.00</div>
+                        <div class="hours">Понедельник-четверг: 08.30 - 17.00</div>
                         <div class="hours">Пятница: 08.30 - 16.00</div>
                         <h3>Продажа электродвигателей</h3>
                         <div>
