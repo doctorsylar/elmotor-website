@@ -1,5 +1,5 @@
 <footer>
-    <div class="container">
+    <div class="inner-footer container">
         <div class="row work-hours">
             <h3>Время работы</h3>
             <div class="hours">Понедельник-Четверг: 08.30 - 17.00</div>

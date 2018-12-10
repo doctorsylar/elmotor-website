@@ -150,9 +150,11 @@ footer .work-hours {
     text-align: left;
     display: block;
 }
+footer .inner-footer {
+    padding-left: 30px;
+}
 footer .footer-contacts {
     padding-bottom: 15px;
-    padding-left: 10px;
 }
 footer .footer-contacts h3 {
     margin: 15px 0;
@@ -199,8 +201,8 @@ footer .copyright a:hover {
     main .map iframe {
         height: 400px;
     }
-    footer .footer-contacts {
-        padding-left: 0;
+    footer .inner-footer {
+        padding-left: 15px;
     }
 }
 
