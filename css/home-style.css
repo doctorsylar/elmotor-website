@@ -1,27 +1,8 @@
-.wrapper {
-    padding: 20px 0;
-}
-.wrapper .section-header {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 18px;
-    margin-bottom: 20px;
-    cursor: default;
-}
-.wrapper .section-header::after {
-    display: block;
-    margin: 10px auto;
-    width: 100px;
-    height: 2px;
-    background-color: #222222;
-    content: '';
-}
+
 main {
     background-color: #cad9dd;
 }
 main .production .production-items {
-    flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
 }
 main .production .production-item {
@@ -57,44 +38,60 @@ main .production .production-item .item-inner:hover .text {
 main .advantages {
     background-color: #bfe3ff;
 }
+main .advantages .advantages-container {
+    justify-content: center;
+    padding: 0 40px;
+}
+main .advantages .advantage {
+    padding: 15px 20px;
+    text-align: center;
+}
+main .advantages .advantage .advantage-inner {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 10px;
+    height: 100%;
+}
+main .advantages .advantage .image {
+    margin-bottom: 2vw;
+}
+/* MAP */
+main .map iframe {
+    height: 300px;
+}
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-    .wrapper {
-        padding: 30px 0;
-    }
-    .wrapper .section-header {
-        font-size: 22px;
-        margin-bottom: 30px;
-    }
-    main .production .row {
+    main .production .production-items {
         flex-direction: row;
+    }
+    main .advantages .advantages-container {
+        padding: 0;
+    }
+    main .map iframe {
+        height: 400px;
     }
 }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-    .wrapper {
-        padding: 40px 0;
-    }
-    .wrapper .section-header {
-        font-size: 24px;
-        margin-bottom: 40px;
+    main .map iframe {
+        height: 450px;
     }
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-    .wrapper {
-        padding: 50px 0;
+    main .advantages .advantage .image {
+        margin-bottom: 1vw;
     }
-    .wrapper .section-header {
-        font-size: 28px;
-        margin-bottom: 50px;
+    main .map iframe {
+        height: 500px;
     }
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-
 }

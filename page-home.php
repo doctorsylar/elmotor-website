@@ -100,7 +100,98 @@ Template Name: home
     <section class="advantages wrapper">
         <h2 class="section-header">Преимущества работы с нами</h2>
         <div class="container-fluid">
-
+            <div class="advantages-container row">
+                <div class="advantage col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="advantage-inner">
+                        <div class="image">
+                            <i class="fas fa-briefcase fa-5x"></i>
+                        </div>
+                        <div class="text">
+                            Более 20 лет на рынке
+                        </div>
+                    </div>
+                </div>
+                <div class="advantage col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="advantage-inner">
+                        <div class="image">
+                            <i class="fas fa-shopping-cart fa-5x"></i>
+                        </div>
+                        <div class="text">
+                            Большой ассортимент двигателей
+                        </div>
+                    </div>
+                </div>
+                <div class="advantage col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="advantage-inner">
+                        <div class="image">
+                            <i class="fas fa-warehouse fa-5x"></i>
+                        </div>
+                        <div class="text">
+                            Наличие электродвигателей на складе
+                        </div>
+                    </div>
+                </div>
+                <div class="advantage col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="advantage-inner">
+                        <div class="image">
+                            <i class="fas fa-truck fa-5x"></i>
+                        </div>
+                        <div class="text">
+                            Бесплатная доставка
+                        </div>
+                    </div>
+                </div>
+                <div class="advantage col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="advantage-inner">
+                        <div class="image">
+                            <i class="fas fa-flag fa-5x"></i>
+                        </div>
+                        <div class="text">
+                            Электродвигатели отечественного производства
+                        </div>
+                    </div>
+                </div>
+                <div class="advantage col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="advantage-inner">
+                        <div class="image">
+                            <i class="fas fa-exclamation-circle fa-5x"></i>
+                        </div>
+                        <div class="text">
+                            Стаж работы обмотчиков - 20 лет
+                        </div>
+                    </div>
+                </div>
+                <div class="advantage col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="advantage-inner">
+                        <div class="image">
+                            <i class="fas fa-cogs fa-5x"></i>
+                        </div>
+                        <div class="text">
+                            Токарные работы - изготовление валов
+                        </div>
+                    </div>
+                </div>
+                <div class="advantage col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="advantage-inner">
+                        <div class="image">
+                            <i class="fas fa-comment-dollar fa-5x"></i>
+                        </div>
+                        <div class="text">
+                            Скидки постоянным клиентам
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="map wrapper">
+        <h2 class="section-header">Как до нас добраться</h2>
+        <div class="container">
+            <iframe src="https://yandex.ru/map-widget/v1/-/CBFs4PwkwA"
+                    width="100%"
+                    height="500px"
+                    frameborder="0"
+                    allowfullscreen="true"></iframe>
         </div>
     </section>
 </main>
