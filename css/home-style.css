@@ -1,7 +1,4 @@
 
-main {
-    background-color: #cad9dd;
-}
 main .production .production-items {
     justify-content: center;
 }
@@ -57,10 +54,6 @@ main .advantages .advantage .advantage-inner {
 main .advantages .advantage .image {
     margin-bottom: 2vw;
 }
-/* MAP */
-main .map iframe {
-    height: 300px;
-}
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
@@ -70,16 +63,12 @@ main .map iframe {
     main .advantages .advantages-container {
         padding: 0;
     }
-    main .map iframe {
-        height: 400px;
-    }
+
 }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-    main .map iframe {
-        height: 450px;
-    }
+
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -87,11 +76,10 @@ main .map iframe {
     main .advantages .advantage .image {
         margin-bottom: 1vw;
     }
-    main .map iframe {
-        height: 500px;
-    }
+
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+
 }

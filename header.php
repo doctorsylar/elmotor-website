@@ -42,7 +42,7 @@
     <nav class="main-nav">
         <div class="container">
             <div class="mobile-navs">
-                <a href="#"><h2>Электромотор</h2></a>
+                <a href="<?=get_site_url() ?>"><h2>Электромотор</h2></a>
                 <i id="menu-toggler" class="fa fa-bars"></i>
             </div>
             <ul class="navigation">

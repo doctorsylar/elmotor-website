@@ -114,20 +114,10 @@ Template Name: home
                 <div class="advantage col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
                     <div class="advantage-inner">
                         <div class="image">
-                            <i class="fas fa-shopping-cart fa-5x"></i>
-                        </div>
-                        <div class="text">
-                            Большой ассортимент двигателей
-                        </div>
-                    </div>
-                </div>
-                <div class="advantage col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                    <div class="advantage-inner">
-                        <div class="image">
                             <i class="fas fa-warehouse fa-5x"></i>
                         </div>
                         <div class="text">
-                            Наличие электродвигателей на складе
+                            Большой ассортимент двигателей на складе
                         </div>
                     </div>
                 </div>
@@ -138,16 +128,6 @@ Template Name: home
                         </div>
                         <div class="text">
                             Бесплатная доставка
-                        </div>
-                    </div>
-                </div>
-                <div class="advantage col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                    <div class="advantage-inner">
-                        <div class="image">
-                            <i class="fas fa-flag fa-5x"></i>
-                        </div>
-                        <div class="text">
-                            Электродвигатели отечественного производства
                         </div>
                     </div>
                 </div>
@@ -187,13 +167,9 @@ Template Name: home
     <section class="map wrapper">
         <h2 class="section-header">Как до нас добраться</h2>
         <div class="container">
-            <iframe src="https://yandex.ru/map-widget/v1/-/CBFs4PwkwA"
-                    width="100%"
-                    height="500px"
-                    frameborder="0"
-                    allowfullscreen="true"></iframe>
+            <div class="row map-container"></div>
         </div>
     </section>
 </main>
-    <link rel="stylesheet" href="<?=DS_ROOT . '/css/home-style.css'?>">
+<!--    <link rel="stylesheet" href="--><?//=DS_ROOT . '/css/home-style.css'?><!--">-->
 <?php get_footer(); ?>
