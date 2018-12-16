@@ -2,6 +2,7 @@
 
 // PHP variables
 define('DS_ROOT', get_template_directory_uri());
+define('DS_MAIN_URL', get_site_url());
 
 //Удалить Query Strings
 function _remove_script_version( $src ){

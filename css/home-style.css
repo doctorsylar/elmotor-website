@@ -54,6 +54,14 @@ main .advantages .advantage .advantage-inner {
 main .advantages .advantage .image {
     margin-bottom: 2vw;
 }
+main .map .map-placeholder {
+    text-align: center;
+    z-index: -1;
+}
+main .map .map-container {
+    margin: -20px auto 0;
+    max-width: 600px;
+}
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
@@ -81,5 +89,7 @@ main .advantages .advantage .image {
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-
+    main .map .map-container {
+        max-width: 900px;
+    }
 }

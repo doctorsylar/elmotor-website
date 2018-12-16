@@ -19,7 +19,7 @@
             <div class="header-main col-12 col-lg-6">
                 <div class="company-name">
                     <h1>
-                        <a href="<?=get_site_url() ?>">
+                        <a href="<?=DS_MAIN_URL ?>">
                             <img src="<?=DS_ROOT . '/img/transparent-sign.png'?>" alt="electromotor">
                             <span class="company-name-span">Электромотор</span>
                         </a>
@@ -42,44 +42,69 @@
     <nav class="main-nav">
         <div class="container">
             <div class="mobile-navs">
-                <a href="<?=get_site_url() ?>"><h2>Электромотор</h2></a>
+                <a href="<?=DS_MAIN_URL ?>"><h2>Электромотор</h2></a>
                 <i id="menu-toggler" class="fa fa-bars"></i>
             </div>
             <ul class="navigation">
-                <li class="nav-item"><a href="<?= get_site_url() ?>">
+                <li class="nav-item"><a href="<?= DS_MAIN_URL ?>">
                         Главная
                     </a></li>
-                <li class="nav-item"><a href="<?= get_site_url() . '/catalog' ?>">
+                <li class="nav-item"><a href="<?= DS_MAIN_URL . '/catalog' ?>">
                         Каталог продукции
                     </a>
                     <ul class="nav-submenu">
-                        <li class="nav-item"><a href="#">Электродвигатели</a></li>
-                        <li class="nav-item"><a href="#">Электродвигатели стандарта DIN</a></li>
-                        <li class="nav-item"><a href="#">Редукторы</a></li>
-                        <li class="nav-item"><a href="#">Мотор-редукторы</a></li>
-                        <li class="nav-item"><a href="#">Вентиляторы</a></li>
-                        <li class="nav-item"><a href="#">Насосы</a></li>
-                        <li class="nav-item"><a href="#">Подшипники</a></li>
-                        <li class="nav-item"><a href="#">Распродажа</a></li>
+                        <li class="nav-item">
+                            <a href="<?= DS_MAIN_URL . '/catalog/electroengine' ?>">
+                                Электродвигатели
+                            </a></li>
+                        <li class="nav-item"><a href="<?= DS_MAIN_URL . '/catalog/dinengine' ?>">
+                                Электродвигатели стандарта DIN
+                            </a></li>
+                        <li class="nav-item"><a href="<?= DS_MAIN_URL . '/catalog/reductor' ?>">
+                                Редукторы</a></li>
+                        <li class="nav-item"><a href="<?= DS_MAIN_URL . '/catalog/motor-reductor' ?>">
+                                Мотор-редукторы</a></li>
+                        <li class="nav-item"><a href="<?= DS_MAIN_URL . '/catalog/fan' ?>">
+                                Вентиляторы</a></li>
+                        <li class="nav-item"><a href="<?= DS_MAIN_URL . '/catalog/pump' ?>">
+                                Насосы</a></li>
+                        <li class="nav-item"><a href="<?= DS_MAIN_URL . '/catalog/bearing' ?>">
+                                Подшипники</a></li>
+                        <li class="nav-item"><a href="<?= DS_MAIN_URL . '/catalog/sale' ?>">
+                                Распродажа</a></li>
                     </ul>
                 </li>
-                <li class="nav-item"><a href="<?= get_site_url() . '/repair' ?>">
+                <li class="nav-item"><a href="<?= DS_MAIN_URL . '/repair' ?>">
                         Ремонт
                     </a>
                     <ul class="nav-submenu">
-                        <li class="nav-item"><a href="#">Общепромышленные электродвигатели</a></li>
-                        <li class="nav-item"><a href="#">Крановые электродвигатели</a></li>
-                        <li class="nav-item"><a href="#">Взрывозащищенные электродвигатели</a></li>
-                        <li class="nav-item"><a href="#">Электродвигатели постоянного тока</a></li>
-                        <li class="nav-item"><a href="#">Высоковольтные электродвигатели</a></li>
-                        <li class="nav-item"><a href="#">Трансформаторы</a></li>
-                        <li class="nav-item"><a href="#">Генераторы</a></li>
+                        <li class="nav-item">
+                            <a href="<?= DS_MAIN_URL . '/repair' ?>">
+                                Общепромышленные электродвигатели</a></li>
+                        <li class="nav-item">
+                            <a href="<?= DS_MAIN_URL . '/repair' ?>">
+                                Крановые электродвигатели</a></li>
+                        <li class="nav-item">
+                            <a href="<?= DS_MAIN_URL . '/repair' ?>">
+                                Взрывозащищенные электродвигатели</a></li>
+                        <li class="nav-item">
+                            <a href="<?= DS_MAIN_URL . '/repair' ?>">
+                                Электродвигатели постоянного тока</a></li>
+                        <li class="nav-item">
+                            <a href="<?= DS_MAIN_URL . '/repair' ?>">
+                                Высоковольтные электродвигатели</a></li>
+                        <li class="nav-item">
+                            <a href="<?= DS_MAIN_URL . '/repair' ?>">
+                                Трансформаторы</a></li>
+                        <li class="nav-item">
+                            <a href="<?= DS_MAIN_URL . '/repair' ?>">
+                                Генераторы</a></li>
                     </ul>
                 </li>
-                <li class="nav-item"><a href="<?= get_site_url() . '/search' ?>">
+                <li class="nav-item"><a href="<?= DS_MAIN_URL . '/search' ?>">
                         Подбор электродвигателей
                     </a></li>
-                <li class="nav-item"><a href="<?= get_site_url() . '/contacts' ?>">
+                <li class="nav-item"><a href="<?= DS_MAIN_URL . '/contacts' ?>">
                         Контакты
                     </a></li>
             </ul>

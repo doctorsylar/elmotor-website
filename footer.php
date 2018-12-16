@@ -33,6 +33,12 @@
                             +7 (812) 766-45-88
                         </a>
                     </div>
+                    <div>
+                        <a href="mailto: info@elmotorspb.ru">
+                            <i class="far fa-envelope"></i>
+                            info@elmotorspb.ru
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-lg-3 ">
@@ -93,11 +99,12 @@
 <!--<div class="overlay"></div>-->
 <!--  DEVELOPMENT  -->
 <?php
-    $pageName = get_page_uri();
+$addressArray = explode('/', get_page_uri());
+$pageName =  $addressArray[count($addressArray) - 1];
 ?>
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&amp;subset=cyrillic" rel="stylesheet">
 <link rel="stylesheet" href="<?=DS_ROOT . '/css/bootstrap-grid.min.css'?>">
-<!--<link rel="stylesheet" href="--><?//=DS_ROOT . '/font-awesome/css/font-awesome.min.css'?><!--">-->
+<!--<link rel="stylesheet" href="--><?//=DS_ROOT . '/font-awesome/css/font-awe0some.min.css'?><!--">-->
 <link rel="stylesheet" href="<?=DS_ROOT . "/css/$pageName-style.css"?>">
 <link rel="stylesheet" href="<?=DS_ROOT . '/fa5/css/all.css'?>">
 <script src="<?=DS_ROOT . '/js/jquery-3.3.1.min.js'?>"></script>

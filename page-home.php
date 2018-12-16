@@ -10,7 +10,7 @@ Template Name: home
         <div class="container">
             <div class="row production-items">
                 <div class="production-item col-12 col-sm-6 col-md-4 col-lg-3">
-                    <a href="#" class="item-inner">
+                    <a href="<?= DS_MAIN_URL . '/catalog/electroengine' ?>" class="item-inner">
                         <div class="picture">
                             <img src="<?= DS_ROOT . '/img/homepage/electrodvig.jpg' ?>" alt="электродвигатель">
                         </div>
@@ -167,6 +167,7 @@ Template Name: home
     <section class="map wrapper">
         <h2 class="section-header">Как до нас добраться</h2>
         <div class="container">
+            <p class="map-placeholder">Происходит загрузка карты</p>
             <div class="row map-container"></div>
         </div>
     </section>
