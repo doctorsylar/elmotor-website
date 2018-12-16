@@ -79,13 +79,13 @@
                     </a>
                     <ul class="nav-submenu">
                         <li class="nav-item">
-                            <a href="<?= DS_MAIN_URL . '/repair' ?>">
+                            <a href="<?= DS_MAIN_URL . '/repair/commons-repair' ?>">
                                 Общепромышленные электродвигатели</a></li>
                         <li class="nav-item">
-                            <a href="<?= DS_MAIN_URL . '/repair' ?>">
+                            <a href="<?= DS_MAIN_URL . '/repair/commons-repair' ?>">
                                 Крановые электродвигатели</a></li>
                         <li class="nav-item">
-                            <a href="<?= DS_MAIN_URL . '/repair' ?>">
+                            <a href="<?= DS_MAIN_URL . '/repair/commons-repair' ?>">
                                 Взрывозащищенные электродвигатели</a></li>
                         <li class="nav-item">
                             <a href="<?= DS_MAIN_URL . '/repair' ?>">
