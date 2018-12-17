@@ -1,0 +1,27 @@
+.catalog-container .catalog-item {
+    display: grid;
+    grid-template-columns: 100%;
+    margin-bottom: 10px;
+}
+.catalog-container .catalog-item .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+@media (min-width: 576px) {
+
+}
+@media (min-width: 768px) {
+    .catalog-container .catalog-item {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 20px;
+    }
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+
+}

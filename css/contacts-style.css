@@ -1,0 +1,11 @@
+.contacts a {
+    color: #76a7e6;
+    transition: 0.25s color;
+    font-size: 18px;
+}
+.contacts a:hover {
+    color: #101065;
+}
+.contacts h3 {
+    margin: 10px 0;
+}

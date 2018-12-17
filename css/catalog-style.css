@@ -1,0 +1,34 @@
+.catalog-container {
+    padding-left: 5vw;
+}
+.catalog-container ul {
+    list-style: none;
+}
+.catalog-container .catalog-item a {
+    color: #101065;
+}
+.catalog-container .catalog-item.sale a {
+    color: green;
+}
+.catalog-container .catalog-item a:hover,
+.catalog-container .catalog-item a:active {
+    opacity: 0.6;
+
+}
+
+@media (min-width: 576px) {
+
+}
+@media (min-width: 768px) {
+    .catalog-container .catalog-item a {
+        font-size: 18px;
+    }
+}
+@media (min-width: 992px) {
+    .catalog-container .catalog-item a {
+        font-size: 21px;
+    }
+}
+@media (min-width: 1200px) {
+
+}

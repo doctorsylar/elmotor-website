@@ -1,0 +1,31 @@
+.tables-container .table-container {
+    margin-bottom: 5px;
+}
+.tables-container .table-container > .row {
+    justify-content: center;
+}
+.tables-container .price-table {
+    border: 1px solid #000000;
+}
+.tables-container .price-table td,
+.tables-container .price-table th {
+    padding: 3px 1px;
+    text-align: center;
+}
+.tables-container .price-table tr:nth-child(2n) {
+    background-color: #ffffff;
+}
+
+@media (min-width: 576px) {
+    .tables-container .price-table td,
+    .tables-container .price-table th {
+        padding: 3px;
+    }
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+
+}

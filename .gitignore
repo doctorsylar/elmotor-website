@@ -55,3 +55,8 @@ fabric.properties
 
 .idea/
 /minified/
+/node_modules/
+package-lock.json
+/font-awesome/
+/fa5/
+/js/jquery-3.3.1.min.js
