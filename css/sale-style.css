@@ -1,0 +1,16 @@
+.sale-container {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.sale-container .sale-item {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 2px solid #101065;
+    width: 100%;
+}
+.sale-container .sale-item:first-child {
+    border-top: 2px solid #101065;
+}
+.sale-container .sale-item .text {
+    padding: 15px;
+}

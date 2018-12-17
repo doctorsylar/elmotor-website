@@ -20,7 +20,7 @@ Template Name: home
                     </a>
                 </div>
                 <div class="production-item col-12 col-sm-6 col-md-4 col-lg-3">
-                    <a href="#" class="item-inner">
+                    <a href="<?= DS_MAIN_URL . '/repair/commons-repair' ?>" class="item-inner">
                         <div class="picture">
                             <img src="<?= DS_ROOT . '/img/homepage/eldvigrem.png' ?>" alt="ремонт электродвигателей">
                         </div>
