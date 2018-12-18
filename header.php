@@ -82,22 +82,22 @@
                             <a href="<?= DS_MAIN_URL . '/repair/commons-repair' ?>">
                                 Общепромышленные электродвигатели</a></li>
                         <li class="nav-item">
-                            <a href="<?= DS_MAIN_URL . '/repair/commons-repair' ?>">
+                            <a href="<?= DS_MAIN_URL . '/repair/crane-repair' ?>">
                                 Крановые электродвигатели</a></li>
                         <li class="nav-item">
-                            <a href="<?= DS_MAIN_URL . '/repair/commons-repair' ?>">
+                            <a href="<?= DS_MAIN_URL . '/repair/protected-repair' ?>">
                                 Взрывозащищенные электродвигатели</a></li>
                         <li class="nav-item">
-                            <a href="<?= DS_MAIN_URL . '/repair' ?>">
+                            <a href="<?= DS_MAIN_URL . '/repair/constant-repair' ?>">
                                 Электродвигатели постоянного тока</a></li>
                         <li class="nav-item">
-                            <a href="<?= DS_MAIN_URL . '/repair' ?>">
+                            <a href="<?= DS_MAIN_URL . '/repair/highvoltage-repair' ?>">
                                 Высоковольтные электродвигатели</a></li>
                         <li class="nav-item">
-                            <a href="<?= DS_MAIN_URL . '/repair' ?>">
+                            <a href="<?= DS_MAIN_URL . '/repair/transformator-repair' ?>">
                                 Трансформаторы</a></li>
                         <li class="nav-item">
-                            <a href="<?= DS_MAIN_URL . '/repair' ?>">
+                            <a href="<?= DS_MAIN_URL . '/repair/generator-repair' ?>">
                                 Генераторы</a></li>
                     </ul>
                 </li>

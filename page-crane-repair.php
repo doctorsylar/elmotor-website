@@ -1,12 +1,13 @@
 <?php
 /*
-Template Name: commons-repair
+Template Name: crane-repair
 */
 ?>
 <?php get_header(); ?>
+    <link rel="stylesheet" href="<?=DS_ROOT . '/css/commons-repair-style.css' ?>">
 <main>
     <section class="wrapper">
-        <h2 class="section-header">Цены за ремонт общепромышленных электродвигателей, без НДС</h2>
+        <h2 class="section-header">Цены за ремонт крановых электродвигателей, без НДС</h2>
         <div class="container">
             <div class="tables-container row">
                 <div class="table-container col-12">
@@ -45,15 +46,6 @@ Template Name: commons-repair
                 <p>Коэффициенты изменения цены за ремонт электродвигателей:</p>
                 <ol class="additions">
                     <li class="addition-item">с фазным ротором - <b>1,8</b> (статор - <b>1,0</b>; ротор - <b>0,8</b>);</li>
-                    <li class="addition-item">для импортных - <b>1,3</b> (в.в.56-80 - <b>1,6</b>);</li>
-                    <li class="addition-item">для серий А, АО, АО2, А2 - <b>1,1</b></li>
-                    <li class="addition-item">для взрывозащищенных - <b>1,2</b></li>
-                    <li class="addition-item">для однофазных - <b>1,3</b></li>
-                    <li class="addition-item">для погруженных электронасосов типа "Гном" - <b>1,8</b></li>
-                    <li class="addition-item">снятие муфт, шкивов, шестерен с вала ротора оплачивается дополнительно;</li>
-                    <li class="addition-item">отсутствие обмотки в статоре - <b>1,2</b></li>
-                    <li class="addition-item">за срочность (срок выполнения заказа до 4-х рабочих дней) - <b>1,3</b></li>
-                    <li class="addition-item">ремонт только статора - <b>0.9</b></li>
                 </ol>
             </div>
         </div>

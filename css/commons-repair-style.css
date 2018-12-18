@@ -21,7 +21,10 @@
 .tables-container .price-table tr:nth-child(2n) {
     background-color: #ffffff;
 }
-
+.additions-container ol {
+    list-style: decimal;
+    padding-left: 18px;
+}
 @media (min-width: 576px) {
     .tables-container .price-table td,
     .tables-container .price-table th {

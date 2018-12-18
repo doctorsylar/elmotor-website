@@ -12,28 +12,28 @@ Template Name: repair
                 <div class="row catalog-container">
                     <ul>
                         <li class="catalog-item">
-                            <a href="">Ремонт общепромышленных электродвигателей</a>
+                            <a href="<?= DS_MAIN_URL . '/repair/commons-repair' ?>">Ремонт общепромышленных электродвигателей</a>
                         </li>
                         <li class="catalog-item">
-                            <a href="">Ремонт крановых электродвигателей</a>
+                            <a href="<?= DS_MAIN_URL . '/repair/crane-repair' ?>">Ремонт крановых электродвигателей</a>
                         </li>
                         <li class="catalog-item">
-                            <a href="">Ремонт взрывозащищенных электродвигателей</a>
+                            <a href="<?= DS_MAIN_URL . '/repair/protected-repair' ?>">Ремонт взрывозащищенных электродвигателей</a>
                         </li>
                         <li class="catalog-item">
-                            <a href="">Ремонт электродвигателей постоянного тока</a>
+                            <a href="<?= DS_MAIN_URL . '/repair/constant-repair' ?>">Ремонт электродвигателей постоянного тока</a>
                         </li>
                         <li class="catalog-item">
-                            <a href="">Ремонт высоковольтных электродвигателей</a>
+                            <a href="<?= DS_MAIN_URL . '/repair/highvoltage-repair' ?>">Ремонт высоковольтных электродвигателей</a>
                         </li>
                         <li class="catalog-item">
-                            <a href="">Ремонт трансформаторов</a>
+                            <a href="<?= DS_MAIN_URL . '/repair/transformator-repair' ?>">Ремонт трансформаторов</a>
                         </li>
                         <li class="catalog-item">
-                            <a href="">Ремонт генераторов</a>
+                            <a href="<?= DS_MAIN_URL . '/repair/generator-repair' ?>">Ремонт генераторов</a>
                         </li>
                         <li class="catalog-item">
-                            <a href="">Токарные работы</a>
+                            <a href="<?= DS_MAIN_URL . '/repair/tokar' ?>">Токарные работы</a>
                         </li>
                     </ul>
                 </div>
