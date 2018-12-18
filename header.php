@@ -47,9 +47,11 @@
             </div>
             <ul class="navigation">
                 <li class="nav-item"><a href="<?= DS_MAIN_URL ?>">
+                        <i class="fas fa-home"></i>
                         Главная
                     </a></li>
                 <li class="nav-item"><a href="<?= DS_MAIN_URL . '/catalog' ?>">
+                        <i class="fas fa-list"></i>
                         Каталог продукции
                     </a>
                     <ul class="nav-submenu">
@@ -75,6 +77,7 @@
                     </ul>
                 </li>
                 <li class="nav-item"><a href="<?= DS_MAIN_URL . '/repair' ?>">
+                        <i class="fas fa-wrench"></i>
                         Ремонт
                     </a>
                     <ul class="nav-submenu">
@@ -102,9 +105,11 @@
                     </ul>
                 </li>
                 <li class="nav-item"><a href="<?= DS_MAIN_URL . '/search' ?>">
+                        <i class="fas fa-search"></i>
                         Подбор электродвигателей
                     </a></li>
                 <li class="nav-item"><a href="<?= DS_MAIN_URL . '/contacts' ?>">
+                        <i class="fas fa-phone"></i>
                         Контакты
                     </a></li>
             </ul>
