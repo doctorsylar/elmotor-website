@@ -57,7 +57,7 @@
                             <a href="<?= DS_MAIN_URL . '/catalog/electroengine' ?>">
                                 Электродвигатели
                             </a></li>
-                        <li class="nav-item"><a href="<?= DS_MAIN_URL . '/catalog/dinengine' ?>">
+                        <li class="nav-item"><a href="<?= DS_MAIN_URL . '/catalog/din' ?>">
                                 Электродвигатели стандарта DIN
                             </a></li>
                         <li class="nav-item"><a href="<?= DS_MAIN_URL . '/catalog/reductor' ?>">

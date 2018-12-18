@@ -11,6 +11,17 @@
 .sale-container .sale-item:first-child {
     border-top: 2px solid #101065;
 }
+.sale-container .sale-item .image img {
+    max-width: 150px;
+}
 .sale-container .sale-item .text {
     padding: 15px;
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .sale-container .sale-item .image img {
+        max-width: 250px;
+    }
 }

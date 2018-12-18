@@ -9,45 +9,21 @@ Template Name: sale
         <h2 class="section-header">Распродажа электродвигателей</h2>
         <div class="container">
             <div class="row sale-container">
+                <?php foreach (getSaleItems() as $item): ?>
                 <div class="sale-item">
                     <div class="image">
-                        <img src="<?= DS_ROOT . '/img/homepage/electrodvig.jpg' ?>" alt="electrodvig">
+                        <img src="<?=$item['thumbnail'] ?>" alt="<?=$item['title'] ?>">
                     </div>
                     <div class="text">
                         <div class="sale-name">
-                            АИР56А2, 1081
+                            <?=$item['title'] ?>
                         </div>
                         <div class="sale-price">
-                            Цена: 99999 рублей.
+                            Цена: <?=$item['price'] ?> рублей.
                         </div>
                     </div>
                 </div>
-                <div class="sale-item">
-                    <div class="image">
-                        <img src="<?= DS_ROOT . '/img/homepage/electrodvig.jpg' ?>" alt="electrodvig">
-                    </div>
-                    <div class="text">
-                        <div class="sale-name">
-                            АИР56А2, 1081
-                        </div>
-                        <div class="sale-price">
-                            Цена: 99999 рублей.
-                        </div>
-                    </div>
-                </div>
-                <div class="sale-item">
-                    <div class="image">
-                        <img src="<?= DS_ROOT . '/img/homepage/electrodvig.jpg' ?>" alt="electrodvig">
-                    </div>
-                    <div class="text">
-                        <div class="sale-name">
-                            АИР56А2, 1081
-                        </div>
-                        <div class="sale-price">
-                            Цена: 99999 рублей.
-                        </div>
-                    </div>
-                </div>
+                <?php endforeach; ?>
             </div>
         </div>
     </section>

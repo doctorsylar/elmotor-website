@@ -6,7 +6,7 @@ Template Name: protected_sell
 <?php get_header(); ?>
 <main>
     <section class="wrapper">
-        <h2 class="section-header">Электродвигатели взрывозащищенные</h2>
+        <h2 class="section-header">Купить взрывозащищенные электродвигатели</h2>
         <div class="container">
             <div class="tables-container row">
                 <div class="table-container col-12 col-md-6">

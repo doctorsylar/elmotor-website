@@ -14,7 +14,7 @@ Template Name: catalog
                         <a href="/catalog/electroengine">Электродвигатели</a>
                     </li>
                     <li class="catalog-item">
-                        <a href="/catalog/dinengine">Электродвигатели стандарта DIN</a>
+                        <a href="/catalog/din">Электродвигатели стандарта DIN</a>
                     </li>
                     <li class="catalog-item">
                         <a href="/catalog/reductor">Редукторы</a>

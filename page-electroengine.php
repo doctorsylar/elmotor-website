@@ -81,6 +81,11 @@ Template Name: electroengine
                             серии А4, ДАЗО4 и другие.
                         </div>
                     </li>
+                    <li class="catalog-item sale">
+                        <div class="link">
+                            <a href="/catalog/sale">Распродажа</a>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>

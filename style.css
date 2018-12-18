@@ -23,6 +23,13 @@ main {
     color: #101065;
     background-color: #d0eaf2;
 }
+main a {
+    color: #101065;
+    transition: opacity 0.25s;
+}
+main a:hover {
+    opacity: 0.6;
+}
 .wrapper {
     padding: 20px 0 40px;
 }
@@ -124,15 +131,12 @@ main {
     border-bottom: 2px solid #ffffff;
     transition: color 0.2s linear, border-bottom-color 0.2s;
 }
-.main-nav .navigation .nav-item .nav-submenu {
-    display: none;
-}
-.main-nav .navigation .nav-item:last-child a {
-    margin-bottom: 10px;
-}
 .main-nav .navigation .nav-item:hover > a {
     color: #101065;
     border-bottom: 2px solid #101065;
+}
+.main-nav .navigation .nav-item .nav-submenu {
+    display: none;
 }
 
 

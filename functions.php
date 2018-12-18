@@ -91,169 +91,91 @@ add_action('wp_enqueue_scripts', function () {
     wp_deregister_script('jquery');
 });
 // Advanced Custom Fields
-//if( function_exists('acf_add_local_field_group')):
-//    acf_add_local_field_group(array(
-//        'key' => 'group_5be358b7483f1',
-//        'title' => 'Portfolio-item',
-//        'fields' => array(
-//            array(
-//                'key' => 'field_5be358dd39d7b',
-//                'label' => 'Name',
-//                'name' => 'name',
-//                'type' => 'text',
-//                'instructions' => '',
-//                'required' => 1,
-//                'conditional_logic' => 0,
-//                'wrapper' => array(
-//                    'width' => '',
-//                    'class' => '',
-//                    'id' => '',
-//                ),
-//                'default_value' => '',
-//                'placeholder' => '',
-//                'prepend' => '',
-//                'append' => '',
-//                'maxlength' => '',
-//            ),
-//            array(
-//                'key' => 'field_5becbda03e777',
-//                'label' => 'ShortDesc',
-//                'name' => 'shortdesc',
-//                'type' => 'text',
-//                'instructions' => '',
-//                'required' => 1,
-//                'conditional_logic' => 0,
-//                'wrapper' => array(
-//                    'width' => '',
-//                    'class' => '',
-//                    'id' => '',
-//                ),
-//                'default_value' => '',
-//                'placeholder' => '',
-//                'prepend' => '',
-//                'append' => '',
-//                'maxlength' => '',
-//            ),
-//            array(
-//                'key' => 'field_5be3590739d7c',
-//                'label' => 'About',
-//                'name' => 'about',
-//                'type' => 'text',
-//                'instructions' => '',
-//                'required' => 1,
-//                'conditional_logic' => 0,
-//                'wrapper' => array(
-//                    'width' => '',
-//                    'class' => '',
-//                    'id' => '',
-//                ),
-//                'default_value' => '',
-//                'placeholder' => '',
-//                'prepend' => '',
-//                'append' => '',
-//                'maxlength' => '',
-//            ),
-//            array(
-//                'key' => 'field_5be3596539d7d',
-//                'label' => 'DoneByMe',
-//                'name' => 'donebyme',
-//                'type' => 'text',
-//                'instructions' => '',
-//                'required' => 1,
-//                'conditional_logic' => 0,
-//                'wrapper' => array(
-//                    'width' => '',
-//                    'class' => '',
-//                    'id' => '',
-//                ),
-//                'default_value' => '',
-//                'placeholder' => '',
-//                'prepend' => '',
-//                'append' => '',
-//                'maxlength' => '',
-//            ),
-//            array(
-//                'key' => 'field_5be3599739d7e',
-//                'label' => 'Link',
-//                'name' => 'link',
-//                'type' => 'url',
-//                'instructions' => '',
-//                'required' => 0,
-//                'conditional_logic' => 0,
-//                'wrapper' => array(
-//                    'width' => '',
-//                    'class' => '',
-//                    'id' => '',
-//                ),
-//                'default_value' => '',
-//                'placeholder' => '',
-//            ),
-//        ),
-//        'location' => array(
-//            array(
-//                array(
-//                    'param' => 'post_type',
-//                    'operator' => '==',
-//                    'value' => 'post',
-//                ),
-//            ),
-//        ),
-//        'menu_order' => 0,
-//        'position' => 'normal',
-//        'style' => 'default',
-//        'label_placement' => 'top',
-//        'instruction_placement' => 'label',
-//        'hide_on_screen' => '',
-//        'active' => 1,
-//        'description' => '',
-//    ));
-//endif;
 // Register post type
-//add_action( 'init', 'register_post_types' );
-//function register_post_types(){
-//    add_theme_support('post-thumbnails');
+add_action( 'init', 'register_post_types' );
+function register_post_types(){
+    add_theme_support('post-thumbnails');
+
+    register_post_type('elmtr_sale', array(
+        'label'  => null,
+        'labels' => array(
+            'name'               => 'Распродажа', // основное название для типа записи
+            'singular_name'      => 'Двигатель по распродаже', // название для одной записи этого типа
+            'add_new'            => 'Добавить двигатель по распродаже', // для добавления новой записи
+            'add_new_item'       => 'Добавление двигателя по распродаже', // заголовка у вновь создаваемой записи в админ-панели.
+            'edit_item'          => 'Редактирование двигателя по распродаже', // для редактирования типа записи
+            'new_item'           => 'Новый двигатель по распродаже', // текст новой записи
+            'view_item'          => 'Смотреть двигатель по распродаже', // для просмотра записи этого типа.
+            'search_items'       => 'Искать двигатель по распродаже', // для поиска по этим типам записи
+            'not_found'          => 'Не найдено', // если в результате поиска ничего не было найдено
+            'not_found_in_trash' => 'Не найдено в корзине', // если не было найдено в корзине
+            'parent_item_colon'  => '', // для родителей (у древовидных типов)
+            'menu_name'          => 'Распродажа', // название меню
+        ),
+        'description'         => '',
+        'public'              => false,
+        'show_ui'             => true,
+        'show_in_menu'        => true,
+        'menu_icon'           => 'dashicons-format-image',
+        'supports'            => array('title', 'thumbnail') // 'title','editor','author','thumbnail','excerpt','trackbacks','custom-fields','comments','revisions','page-attributes','post-formats'
+    ));
+    register_post_type('elmtr_repair_common', array(
+        'label'  => null,
+        'labels' => array(
+            'name'               => 'Ремонтный прайс', // основное название для типа записи
+            'singular_name'      => 'Цена ремонта', // название для одной записи этого типа
+            'add_new'            => 'Добавить цену ремонта', // для добавления новой записи
+            'add_new_item'       => 'Добавление цены ремонта', // заголовка у вновь создаваемой записи в админ-панели.
+            'edit_item'          => 'Редактирование цены ремонта', // для редактирования типа записи
+            'new_item'           => 'Новая цена ремонта', // текст новой записи
+            'view_item'          => 'Смотреть цену ремонта', // для просмотра записи этого типа.
+            'search_items'       => 'Искать цену ремонта', // для поиска по этим типам записи
+            'not_found'          => 'Не найдено', // если в результате поиска ничего не было найдено
+            'not_found_in_trash' => 'Не найдено в корзине', // если не было найдено в корзине
+            'parent_item_colon'  => '', // для родителей (у древовидных типов)
+            'menu_name'          => 'Ремонтный прайс', // название меню
+        ),
+        'description'         => '',
+        'public'              => false,
+        'show_ui'             => true,
+        'show_in_menu'        => true,
+        'menu_icon'           => 'dashicons-admin-tools',
+        'supports'            => array('title') // 'title','editor','author','thumbnail','excerpt','trackbacks','custom-fields','comments','revisions','page-attributes','post-formats'
+    ));
+}
 //
-//    register_post_type('portfolio_item', array(
-//        'label'  => null,
-//        'labels' => array(
-//            'name'               => 'Portfolio-item', // основное название для типа записи
-//            'singular_name'      => 'Portfolio-item', // название для одной записи этого типа
-//            'add_new'            => 'Добавить Portfolio-item', // для добавления новой записи
-//            'add_new_item'       => 'Добавление Portfolio-item', // заголовка у вновь создаваемой записи в админ-панели.
-//            'edit_item'          => 'Редактирование Portfolio-item', // для редактирования типа записи
-//            'new_item'           => 'Новое Portfolio-item', // текст новой записи
-//            'view_item'          => 'Смотреть Portfolio-item', // для просмотра записи этого типа.
-//            'search_items'       => 'Искать Portfolio-item', // для поиска по этим типам записи
-//            'not_found'          => 'Не найдено', // если в результате поиска ничего не было найдено
-//            'not_found_in_trash' => 'Не найдено в корзине', // если не было найдено в корзине
-//            'parent_item_colon'  => '', // для родителей (у древовидных типов)
-//            'menu_name'          => 'Portfolio-item', // название меню
-//        ),
-//        'description'         => '',
-//        'public'              => false,
-//        'show_ui'             => true,
-//        'show_in_menu'        => true,
-//        'menu_icon'           => 'dashicons-format-image',
-//        'supports'            => array('title','thumbnail') // 'title','editor','author','thumbnail','excerpt','trackbacks','custom-fields','comments','revisions','page-attributes','post-formats'
-//    ) );
-//}
-//
-//function getPortfolioItems () {
-//    $args = array(
-//        'numberposts' => -1,
-//        'orderby'     => 'date',
-//        'order'       => 'DESC',
-//        'post_type'   => 'portfolio_item',
-//    );
-//
-//    $portfolioItems = [];
-//
-//    foreach (get_posts($args) as $post) {
-//        $item = get_fields($post -> ID);
-//        $item['title'] = $post -> post_title;
-//        $item['thumbnail'] = get_the_post_thumbnail_url($post -> ID, 'medium');
-//        $item['image'] = get_the_post_thumbnail_url($post -> ID, 'full');
-//        $portfolioItems[] = $item;
-//    }
-//    return $portfolioItems;
-//}
+function getSaleItems () {
+    $args = array(
+        'numberposts' => -1,
+        'orderby'     => 'date',
+        'order'       => 'ASC',
+        'post_type'   => 'elmtr_sale',
+    );
+
+    $saleItems = [];
+
+    foreach (get_posts($args) as $post) {
+        $item = get_fields($post -> ID);
+        $item['title'] = $post -> post_title;
+        $item['thumbnail'] = get_the_post_thumbnail_url($post -> ID, 'medium');
+        $saleItems[] = $item;
+    }
+    return $saleItems;
+}
+function getRepairPriceItems () {
+    $args = array(
+        'numberposts' => -1,
+        'orderby'     => 'title',
+        'order'       => 'ASC',
+        'post_type'   => 'elmtr_repair_common',
+    );
+
+    $repairPriceItems = [];
+
+    foreach (get_posts($args) as $post) {
+        $item = get_fields($post -> ID);
+        $item['title'] = $post -> post_title;
+        $repairPriceItems[] = $item;
+    }
+    return $repairPriceItems;
+}

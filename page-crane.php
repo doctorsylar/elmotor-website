@@ -6,7 +6,7 @@ Template Name: crane_sell
 <?php get_header(); ?>
 <main>
     <section class="wrapper">
-        <h2 class="section-header">Электродвигатели общепромышленного назначения</h2>
+        <h2 class="section-header">Купить крановые электродвигатели</h2>
         <div class="container">
             <div class="tables-container row">
                 <div class="table-container col-12 col-md-6">
