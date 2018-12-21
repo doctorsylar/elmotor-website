@@ -33,6 +33,12 @@ Template Name: contacts
                                 +7 (812) 766-45-88
                             </a>
                         </div>
+                        <div>
+                            <a href="mailto: info@elmotorspb.ru">
+                                <i class="far fa-envelope"></i>
+                                info@elmotorspb.ru
+                            </a>
+                        </div>
                         <h3>Ремонт больших машин</h3>
                         <div>
                             <a href="tel:+7(812)3365556">

@@ -775,6 +775,10 @@ Template Name: commonprom_sell
                     </div>
                 </div>
             </div>
+            <div class="description">
+                <p>В таблице указана стоимость электродвигателей исполнением 1081 (на лапах).</p>
+                <p>За монтажное исполнение 2081 и 3081 надбавка к цене - 5%</p>
+            </div>
         </div>
     </section>
 </main>

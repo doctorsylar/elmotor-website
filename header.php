@@ -1,3 +1,9 @@
+<?php
+$addressArray = explode('/', get_page_uri());
+$pageName =  $addressArray[count($addressArray) - 1];
+//include_once DS_ROOT . "/inc/$pageName.php";
+require_once($_SERVER['DOCUMENT_ROOT']."/wp-content/themes/elmtr/inc/$pageName.php");
+?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -5,6 +11,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"
+          content="<?= $pageDescription ?>">
     <title><?php is_front_page() ? bloginfo('description') : wp_title(''); ?> | <?php bloginfo('name'); ?> </title>
     <style>
         a {
