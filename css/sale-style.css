@@ -7,6 +7,7 @@
     justify-content: flex-start;
     border-bottom: 2px solid #101065;
     width: 100%;
+    padding: 12px 0 10px;
 }
 .sale-container .sale-item:first-child {
     border-top: 2px solid #101065;
