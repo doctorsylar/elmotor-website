@@ -94,22 +94,14 @@
     </div>
 </footer>
 
-
-<!--<i class="fa fa-times close-modal"></i>-->
-<!--<div class="overlay"></div>-->
-<!--  DEVELOPMENT  -->
 <?php
 $addressArray = explode('/', get_page_uri());
 $pageName =  $addressArray[count($addressArray) - 1];
 ?>
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&amp;subset=cyrillic" rel="stylesheet">
 <link rel="stylesheet" href="<?=DS_ROOT . '/css/bootstrap-grid.min.css'?>">
-<!--<link rel="stylesheet" href="--><?//=DS_ROOT . '/font-awesome/css/font-awe0some.min.css'?><!--">-->
 <link rel="stylesheet" href="<?=DS_ROOT . "/css/$pageName-style.css"?>">
 <link rel="stylesheet" href="<?=DS_ROOT . '/fa5/css/all.css'?>">
 <script src="<?=DS_ROOT . '/js/jquery-3.3.1.min.js'?>"></script>
 <script src="<?=DS_ROOT . '/js/script.js'?>"></script>
 <script src="<?=DS_ROOT . "/js/$pageName-script.js"?>"></script>
-<!--    MINIFIED     -->
-<!--<link rel="stylesheet" href="--><?//=DS_ROOT . '/minified/index.css'?><!--">-->
-<!--<script src="--><?//=DS_ROOT . '/minified/index.js'?><!--"></script>-->

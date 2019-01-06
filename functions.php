@@ -165,7 +165,7 @@ function getSaleItems () {
 function getRepairPriceItems () {
     $args = array(
         'numberposts' => -1,
-        'orderby'     => 'title',
+        'orderby'     => 'date',
         'order'       => 'ASC',
         'post_type'   => 'elmtr_repair_common',
     );

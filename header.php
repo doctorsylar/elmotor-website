@@ -1,8 +1,9 @@
 <?php
 $addressArray = explode('/', get_page_uri());
 $pageName =  $addressArray[count($addressArray) - 1];
-//include_once DS_ROOT . "/inc/$pageName.php";
-require_once($_SERVER['DOCUMENT_ROOT']."/wp-content/themes/elmtr/inc/$pageName.php");
+if (file_exists($_SERVER['DOCUMENT_ROOT']."/wp-content/themes/elmtr/inc/$pageName.php")) {
+    require_once($_SERVER['DOCUMENT_ROOT'] . "/wp-content/themes/elmtr/inc/$pageName.php");
+}
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>

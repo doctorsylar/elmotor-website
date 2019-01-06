@@ -21,9 +21,14 @@
     cursor: default;
     background-color: #ffffff;
 }
+.tabs-container .tab-picture {
+    margin-bottom: 5vw;
+    border: 2px solid #555555;
+    border-top: 0;
+}
 .tabs-container .tab-picture #tab-picture {
     width: 100%;
-    margin-bottom: 5vw;
+    margin-bottom: -4px;
 }
 .table-container .search-table {
     border-collapse: collapse;
