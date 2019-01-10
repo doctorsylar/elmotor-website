@@ -32,7 +32,7 @@ Template Name: home
                 <div class="production-item col-12 col-sm-6 col-md-4 col-lg-3">
                     <a href="<?= DS_MAIN_URL . '/catalog/reductor' ?>" class="item-inner">
                         <div class="picture">
-                            <img src="<?= DS_ROOT . '/img/homepage/reduktory.jpg' ?>" alt="редукторы">
+                            <img src="<?= DS_ROOT . '/img/homepage/reductory.jpg' ?>" alt="редукторы">
                         </div>
                         <div class="text">
                             редукторы
@@ -42,7 +42,8 @@ Template Name: home
                 <div class="production-item col-12 col-sm-6 col-md-4 col-lg-3">
                     <a href="<?= DS_MAIN_URL . '/catalog/motor-reductor' ?>" class="item-inner">
                         <div class="picture">
-                            <img src="<?= DS_ROOT . '/img/homepage/motor-red.jpg' ?>" alt="мотор-редукторы">
+                            <img src="<?= DS_ROOT . '/img/homepage/motor-red.jpg' ?>"
+                                 alt="мотор-редукторы">
                         </div>
                         <div class="text">
                             мотор-редукторы
@@ -52,9 +53,8 @@ Template Name: home
                 <div class="production-item col-12 col-sm-6 col-md-4 col-lg-3">
                     <a href="<?= DS_MAIN_URL . '/catalog/fan' ?>" class="item-inner">
                         <div class="picture">
-                            <img src="<?= DS_ROOT . '/img/homepage/vent.png' ?>"
+                            <img src="<?= DS_ROOT . '/img/homepage/vent.jpg' ?>"
                                  alt="вентиляторы"
-                                 style="margin-top: 20px;"
                             >
                         </div>
                         <div class="text">

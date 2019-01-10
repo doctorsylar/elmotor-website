@@ -16,6 +16,14 @@ main .production .production-item .item-inner {
     height: 100%;
 
 }
+main .production .production-item .item-inner .picture {
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
 main .production .production-item .item-inner .picture img {
     width: 100%;
     transform: scale(0.9);
