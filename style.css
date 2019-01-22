@@ -9,10 +9,11 @@ body {
     color: #222222;
     box-sizing: border-box;
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
+    -webkit-flex-direction: column;
     min-height: 100vh;
     font-family: 'Roboto Slab', sans-serif;
-    -webkit-flex-direction: column;
 }
 a {
     text-decoration: none;
@@ -21,12 +22,14 @@ a {
 }
 main {
     flex-grow: 1;
+    -webkit-flex-grow: 1;
     color: #101065;
     background-color: #d0eaf2;
 }
 main a {
     color: #101065;
     transition: opacity 0.25s;
+    -webkit-transition: opacity 0.25s;
 }
 main a:hover {
     opacity: 0.6;
@@ -82,6 +85,7 @@ main a:hover {
     text-decoration: none;
     opacity: 1;
     transition: opacity 0.3s linear;
+    -webkit-transition: opacity 0.3s linear;
 }
 .main-header .header-main .header-contacts ul a:hover {
     opacity: 0.4;
@@ -94,12 +98,16 @@ main a:hover {
 }
 .main-nav .mobile-navs {
     display: flex;
+    display: -webkit-flex;
     justify-content: space-between;
+    -webkit-justify-content: space-between;
     align-items: center;
+    -webkit-align-items: center;
 }
 .main-nav .mobile-navs a {
     display: inline-block;
     transition: color 0.2s linear, border-bottom-color 0.2s;
+    -webkit-transition: color 0.2s linear, border-bottom-color 0.2s;
 }
 .main-nav .mobile-navs a:hover {
     color: #cccccc;
@@ -117,6 +125,7 @@ main a:hover {
     text-align: center;
     display: none;
     flex-direction: column;
+    -webkit-flex-direction: column;
     z-index: 2;
     top: 42px;
     left: 0;
@@ -132,6 +141,7 @@ main a:hover {
     padding: 10px 8px;
     border-bottom: 2px solid #ffffff;
     transition: color 0.2s linear, border-bottom-color 0.2s;
+    -webkit-transition: color 0.2s linear, border-bottom-color 0.2s;
 }
 .main-nav .navigation .nav-item:hover > a {
     color: #101065;
@@ -169,6 +179,7 @@ footer .footer-contacts h3 {
 }
 footer .footer-contacts .row {
     flex-direction: column;
+    -webkit-flex-direction: column;
 }
 footer .footer-contacts a {
     transition: 0.25s color;
@@ -185,6 +196,7 @@ footer .copyright {
 }
 footer .copyright a {
     transition: 0.25s color, 0.25s border-bottom-width;
+    -webkit-transition: 0.25s color, 0.25s border-bottom-width;
     border-bottom: 1px dotted #ffffff;
 }
 footer .copyright a:hover {
@@ -248,11 +260,12 @@ footer .copyright a:hover {
         display: none;
     }
     .main-nav .navigation {
-        display: -webkit-flex !important;
         display: flex !important;
+        display: -webkit-flex !important;
         flex-direction: row;
         -webkit-flex-direction: row;
         justify-content: space-between;
+        -webkit-justify-content: space-between;
         position: static;
     }
     .main-nav .navigation .nav-item a {

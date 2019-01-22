@@ -1,14 +1,18 @@
 
 main .production .production-items {
     justify-content: center;
+    -webkit-justify-content: center;
 }
 main .production .production-item {
     padding: 10px;
 }
 main .production .production-item .item-inner {
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
+    -webkit-flex-direction: column;
     justify-content: space-between;
+    -webkit-justify-content: space-between;
     overflow: hidden;
     color: #222222;
     background-color: #ffffff;
@@ -56,6 +60,9 @@ main .advantages .advantage .advantage-inner {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-justify-content: space-between;
     padding: 15px 10px;
     height: 100%;
 }
