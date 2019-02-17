@@ -42,6 +42,12 @@ if (file_exists($_SERVER['DOCUMENT_ROOT']."/wp-content/themes/elmtr/inc/$pageNam
                         <li class="contact-item">
                             <a href="mailto:leonenkov1965@yandex.ru">Leonenkov1965@yandex.ru</a>
                         </li>
+                        <li class="contact-item">
+                            <a href="https://wa.me/+79119854074">WhatsApp</a>
+                        </li>
+                        <li class="contact-item">
+                            <a href="tel:+79119854074">+7 (911) 985-40-74</a>
+                        </li>
                     </ul>
                 </div>
             </div>
